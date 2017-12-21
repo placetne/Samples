@@ -32,7 +32,7 @@ setValue.prototype.command = function(object, value) {
             for (var c of value.split('')) {
                 api.elementIdValue(element.ELEMENT, c);
             }
-			self.emit('complete');
+            self.emit('complete');
         });
     });
 	
